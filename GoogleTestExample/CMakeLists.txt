@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.3)
 set(GTEST_ROOT $ENV{HOME}/usr/src/gtest)
 include_directories(
-	    ${GTEST_ROOT}/include
+	    ${GTEST_ROOT}/googletest/googletest/include
 		    )
 		add_executable(gtest_example gtest_example.cpp)
 		target_link_libraries(gtest_example
