@@ -1,9 +1,5 @@
 #include <gtest/gtest.h>
-
-int add(int x, int y)
-{
-	    return x + y;
-}
+#include "example.cpp"
 
 TEST(AddTest, Test1)
 {
