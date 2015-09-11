@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 2.8)
-set(GTEST_ROOT $ENV{HOME}/usr/src/gtest)
+set(GTEST_ROOT $ENV{HOME}/src/gtest)
 include_directories(
 	    ${GTEST_ROOT}/googletest/googletest/include
 		    )
